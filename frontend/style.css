@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    height: 100vh;
+    overflow: hidden;
+}
+body::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: url('heartbeat.png') no-repeat center center/cover; */
+    opacity: 0.1;
+    z-index: -1;
+    animation: hearbeat 1.5s infinite;
+}
+@keyframes heatbeat {
+    0%,100%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-card{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding:2rem;
+    width: 300px;
+    text-align: centre;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border:1px solid rgba(255, 255, 255, 0.1) ;
+}
+.login-card h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+.login-card .tagline{
+    font-size: ;
+}
