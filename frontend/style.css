@@ -48,7 +48,7 @@ body::before{
 }
 .login-card .tagline{
     font-size:0.9rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(black);
     margin-bottom: 2rem;
 }
 .form-group{
@@ -67,7 +67,7 @@ body::before{
   border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.2);
-  color: white;
+  color: black;
   font-size: 1rem;
 }
 .form-group input::placeholder{
