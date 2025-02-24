@@ -9,4 +9,6 @@ Users can register, log in, and update records, while super admins oversee modif
 This project, developed for DUHackathon 4.0, demonstrates practical backend development skills and problem-solving capabilities in handling real-world healthcare data management.
 
 
+This project currently runs on a local MongoDB database. To test it fully, clone the repo, install dependencies, and set up a MongoDB connection.
+
 Feel free to contribute
